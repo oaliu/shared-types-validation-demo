@@ -1,0 +1,32 @@
+{
+  "name": "shared-types-validations-demo",
+  "version": "1.0.0",
+  "description": "A demonstration of sharing types and validation between frontend and backend using TypeScript.",
+  "keywords": [
+    "typescript",
+    "shared types",
+    "validation",
+    "turborepo",
+    "remix",
+    "express",
+    "fullstack",
+    "monorepo",
+    "schema sharing"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "clean": "turbo clean",
+    "dev": "turbo dev",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^2.2.3",
+    "typescript": "5.5.4"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
